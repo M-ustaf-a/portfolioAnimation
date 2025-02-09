@@ -53,7 +53,7 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.error(error);
+          console.error("Error sending email:",error);
 
           showAlert({
             show: true,
