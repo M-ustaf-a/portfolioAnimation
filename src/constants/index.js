@@ -115,20 +115,19 @@ export const myProjects = [
   //     },
   //   ],
   // },
+  
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'StoreData',
+    desc: 'A storage management and file sharing platform that lets users effortlessly upload, organize, and share files. Built with the latest Next.js 15 and the Appwrite Node SDK, utilizing advanced features for seamless file management.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+      'Built with Next.js 14, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+    href: 'https://storage-management-solution.vercel.app/',
+    texture: '/textures/project/project6.mp4',
+    logo: '/assets/logo-brand.svg',
     logoStyle: {
-      backgroundColor: '#60f5a1',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
     },
     spotlight: '/assets/spotlight3.png',
     tags: [
@@ -155,50 +154,13 @@ export const myProjects = [
     ],
   },
   {
-    title: 'StoreData',
-    desc: 'A storage management and file sharing platform that lets users effortlessly upload, organize, and share files. Built with the latest Next.js 15 and the Appwrite Node SDK, utilizing advanced features for seamless file management.',
+    title: 'Brainwave',
+    desc: 'Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles.',
     subdesc:
-      'Built with Next.js 14, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://storage-management-solution.vercel.app/',
-    texture: '/textures/project/project6.mp4',
-    logo: '/assets/logo-brand.svg',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/logo-brand.svg',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'HomeStead',
-    desc: 'Homestead is a user-friendly platform where property owners can list houses and other real estate for sale or rent.',
-    subdesc:
-      'Customers can easily browse, buy, or rent properties, making the entire process simple and efficient.',
-    href: 'https://homestead-ei7m.onrender.com/listings',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+      'Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.',
+    href: 'https://brainwave-mu-taupe.vercel.app/',
+    texture: '/textures/project/project7.mp4',
+    logo: '/assets/brainwave.svg',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
@@ -228,43 +190,43 @@ export const myProjects = [
       },
     ],
   },
-  {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
+  // {
+  //   title: 'Imaginify - AI Photo Manipulation App',
+  //   desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+  //   subdesc:
+  //     'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+  //   href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+  //   texture: '/textures/project/project5.mp4',
+  //   logo: '/assets/project-logo5.png',
+  //   logoStyle: {
+  //     backgroundColor: '#1C1A43',
+  //     border: '0.2px solid #252262',
+  //     boxShadow: '0px 0px 60px 0px #635BFF4D',
+  //   },
+  //   spotlight: '/assets/spotlight5.png',
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: 'React.js',
+  //       path: '/assets/react.svg',
+  //     },
+  //     {
+  //       id: 2,
+  //       name: 'TailwindCSS',
+  //       path: 'assets/tailwindcss.png',
+  //     },
+  //     {
+  //       id: 3,
+  //       name: 'TypeScript',
+  //       path: '/assets/typescript.png',
+  //     },
+  //     {
+  //       id: 4,
+  //       name: 'Framer Motion',
+  //       path: '/assets/framer.png',
+  //     },
+  //   ],
+  // },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -285,7 +247,7 @@ export const workExperiences = [
     pos: 'Backend Developer',
     duration: '2023 - Present',
     title: "Implemented a user authentication system (frontend and backend).   Developed an administration system for managing user data and access.",
-    icon: '/assets/framer.svg',
+    icon: '/assets/Havo.png',
     animation: 'victory',
   },
   {
@@ -294,7 +256,7 @@ export const workExperiences = [
     pos: 'Prompt Engineer Intern',
     duration: 'May-2023 to Aug-2023',
     title: 'Trained AI models to improve their performance and accuracy.',
-    icon: '/assets/figma.svg',
+    icon: '/assets/myshell.ai.png',
     animation: 'clapping',
   },
   {
@@ -303,7 +265,7 @@ export const workExperiences = [
     pos: 'Full stack developer',
     duration: '2022 - 2023',
     title: "Led the dev of a Web app for a client, from initial concept to deployment on web.",
-    icon: '/assets/notion.svg',
+    icon: '/assets/freelancer.png',
     animation: 'salute',
   },
 ];
